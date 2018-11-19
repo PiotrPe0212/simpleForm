@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+input,
+select,
+option {
+    box-sizing: content-box;
+    margin: 10px;
+    padding: 5px;
+    height: 25px;
+    border: 1px;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(233, 233, 233);
+    display: flex;
+    justify-content: center;
+}
